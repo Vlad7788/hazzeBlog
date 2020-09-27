@@ -160,3 +160,33 @@ ol {
 .slicknav_menu {
 	display: none;
 }
+
+.hero-section {
+	height: 800px;
+	display: flex;
+	align-items: center;
+}
+
+.hs-text span {
+	color: #e32879;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.hs-text h2 {
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.hs-text p {
+	color: #ffffff;
+	margin-bottom: 45px;
+}
+
+.set-bg{
+    background-image: url(img/hero-bg.jpg);
+}
