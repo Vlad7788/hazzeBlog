@@ -389,3 +389,36 @@ ol {
 	margin-top: 33px;
 	margin-bottom: 25px;
 }
+
+/*---------------------
+  Call To Section
+-----------------------*/
+
+.callto-section {
+	padding: 80px 0;
+}
+
+.ctc-text {
+	text-align: center;
+}
+
+.ctc-text h2 {
+	font-size: 45px;
+	color: #ffffff;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.ctc-text p {
+	color: #ffffff;
+	margin-bottom: 45px;
+}
+
+.ctc-text .primary-btn.ctc-btn {
+	background: #ffffff;
+	color: #e32879;
+}
+
+.set-bg-1{
+	background-image: url(img/ctc-bg.jpg);
+}
