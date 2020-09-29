@@ -2,8 +2,6 @@ html,
 body {
 	height: 100%;
 	font-family: "Libre Franklin", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
 }
 
 h1,
@@ -286,6 +284,7 @@ ol {
 }
 
 
+
 /*---------------------
   About Us Section
 -----------------------*/
@@ -440,6 +439,9 @@ ol {
 	height: 435px;
 	position: relative;
 	margin-bottom: 30px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
 }
 
 .member-item:hover .mi-text {
@@ -516,4 +518,110 @@ ol {
 
 .set-bg-03{
 	background-image: url(img/member/member-3.jpg);
+}
+
+/*---------------------
+  Blog Section
+-----------------------*/
+
+.set-bg-11{
+	background-image: url(img/blog/blog-1.jpg);
+}
+
+.set-bg-12{
+	background-image: url(img/blog/blog-2.jpg);
+}
+
+.blog-item .bi-pic  {
+	height: 390px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.blog-item {
+	background: #191919;
+	margin-bottom: 30px;
+	height: 390px
+}
+
+
+.blog-section {
+	background: #222222;
+	padding-bottom: 80px;
+}
+.blog-section.latest-blog {
+	padding-bottom: 80px;
+}
+
+.blog-item .bi-text {
+	padding-top: 46px;
+	padding-right: 20px;
+	padding-bottom: 38px;
+}
+
+.blog-item .bi-text ul {
+	margin-bottom: 17px;
+}
+
+.blog-item .bi-text ul li {
+	list-style: none;
+	display: inline-block;
+	color: #e32879;
+	font-size: 14px;
+	margin-right: 8px;
+}
+
+.blog-item .bi-text ul li i {
+	margin-right: 4px;
+}
+
+.blog-item .bi-text h4 {
+	margin-bottom: 22px;
+}
+
+.blog-item .bi-text h4 a {
+	color: #ffffff;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+.blog-item .bi-text p {
+	margin-bottom: 42px;
+}
+
+.blog-item .bi-text .bt-author .ba-pic {
+	margin-right: 12px;
+}
+
+.blog-item .bi-text .bt-author .ba-pic img {
+	height: 53px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.blog-item .bi-text .bt-author .ba-text {
+	overflow: hidden;
+	padding-top: 4px;
+}
+
+.blog-item .bi-text .bt-author .ba-text h5 {
+	color: #ffffff;
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+
+.blog-item .bi-text .bt-author .ba-text span {
+	font-size: 12px;
+	color: #e32879;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+	.blog-item .bi-text {
+		padding-top: 20px;
+		padding-right: 10px;
+		padding-bottom: 30px;
+	}
 }
